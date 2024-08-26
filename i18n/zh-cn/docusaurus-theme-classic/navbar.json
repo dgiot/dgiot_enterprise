@@ -1,0 +1,82 @@
+{
+  "title": {
+    "message": "dgiot",
+    "description": "The title in the navbar"
+  },
+  "item.label.Docs": {
+    "message": "文档",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Home": {
+    "message": "首页",
+    "description": "Navbar item with label Home"
+  },
+  "link.item.label.Introduction": {
+    "message": "官网介绍",
+    "description": "The label of footer link with label=Introduction linking to /dgiot/intro"
+  },
+  "item.label.DgiotCloud": {
+    "message": "迪格云",
+    "description": "Navbar item with label DgiotCloud"
+  },
+  "item.label.Media": {
+    "message": "媒体",
+    "description": "Navbar item with label Media"
+  },
+  "item.label.Solution": {
+    "message": "解决方案",
+    "description": "Navbar item with label Solution"
+  },
+  "item.label.SmartBuilding": {
+    "message": "设备运维",
+    "description": "Navbar item with label SmartBuilding"
+  },
+  "item.label.SmartVenue": {
+    "message": "智慧园区",
+    "description": "Navbar item with label SmartVenue"
+  },
+  "item.label.DigitalFactory": {
+    "message": "智慧工厂",
+    "description": "Navbar item with label DigitalFactory"
+  },
+  "item.label.WisdomEnergy": {
+    "message": "智慧能源",
+    "description": "Navbar item with label WisdomEnergy"
+  },
+  "item.label.IndustryBrain": {
+    "message": "产业大脑",
+    "description": "Navbar item with label IndustryBrain"
+  },
+  "item.label.CloudDetection": {
+    "message": "云检测",
+    "description": "Navbar item with label CloudDetection"
+  },
+  "item.label.CloudTest": {
+    "message": "云压测",
+    "description": "Navbar item with label CloudTest"
+  },
+  "item.label.Partner": {
+    "message": "合作伙伴",
+    "description": "Navbar item with label Partner"
+  },
+  "item.label.Guest": {
+    "message": "创客",
+    "description": "Navbar item with label Guest"
+  },
+  "item.label.Products": {
+    "message": "产品",
+    "description": "Navbar item with label Products"
+  },
+  "item.label.Blog": {
+    "message": "博客",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.Support": {
+    "message": "联系我们",
+    "description": "Navbar item with label Support"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

@@ -1,2 +1,3 @@
-# dgiot_enterprise
-dgiot_enterprise doc
+# dgiot-doc
+
+This repository contains the ChunJun website: https://doc.dgiotcloud.cn/
