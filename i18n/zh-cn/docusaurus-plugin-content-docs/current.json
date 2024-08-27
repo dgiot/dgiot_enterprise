@@ -3,8 +3,44 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.docs.category.developer_guid": {
-    "message": "DGIOT企业版",
-    "description": "The label for category developer_guid in sidebar docs"
+  "sidebar.docs.category.product_overview": {
+    "message": "产品概述",
+    "description": "A concise summary of a product's core functionalities, features, application scenarios, and competitive advantages"
+  },
+  "sidebar.docs.category.quick_start": {
+    "message": "快速入门",
+    "description": "Quick Start refers to the process of enabling users to quickly grasp and begin using a product or service through concise and straightforward steps or guidance."
+  },
+  "sidebar.docs.category.system_install": {
+    "message": "系统安装",
+    "description": "The process of configuring and deploying software or hardware systems to enable them to function properly in a specific environment."
+  },
+  "sidebar.docs.category.data_acquisition": {
+    "message": "数据采集",
+    "description": "The process of configuring and deploying software or hardware systems to enable them to function properly in a specific environment."
+  },
+  "sidebar.docs.category.data_processing": {
+    "message": "数据处理",
+    "description": "The process of configuring and deploying software or hardware systems to enable them to function properly in a specific environment."
+  },
+  "sidebar.docs.category.other": {
+    "message": "三方对接",
+    "description": "The process of configuring and deploying software or hardware systems to enable them to function properly in a specific environment."
+  },
+  "sidebar.docs.category.operation_guide": {
+    "message": "运维指南",
+    "description": "The process of configuring and deploying software or hardware systems to enable them to function properly in a specific environment."
+  },
+  "sidebar.docs.category.performance_testing": {
+    "message": "性能测试",
+    "description": "The process of configuring and deploying software or hardware systems to enable them to function properly in a specific environment."
+  },
+  "sidebar.docs.category.faq": {
+    "message": "FAQ常见问题",
+    "description": "The process of configuring and deploying software or hardware systems to enable them to function properly in a specific environment."
+  },
+  "sidebar.docs.category.version_history": {
+    "message": "发版历史",
+    "description": "The process of configuring and deploying software or hardware systems to enable them to function properly in a specific environment."
   }
 }
