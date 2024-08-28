@@ -5,7 +5,11 @@ sidebar_position: 3
 
 # 许可证政策
 
-dgiot_enterprise 默认安装后提供了 30 个点（30 个数据标签）的免费额度。您可在不安装 EMQ 许可证的情况下，运行这些商业模块，具体见下图 **可用插件**。dgiot_enterprise 默认安装后数据处理模块仅供测试使用，创建的规则每运行60分钟后将自动停止。
+dgiot_enterprise 默认提供了3种协议永久使用（10-3000个设备接入量，具体看物模型点位）。若部署后由于**平台稳定性**、**接入量扩增**、**私有协议开发接入**、**通道授权**等服务，
+可以联系DGIOT官方[客服](https://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/shuwa_tech/zh/news/%E5%B0%8F%E8%BF%AA%E5%BE%AE%E4%BF%A1.jpg)对接。
 
-超出免费数据标签额度，或者完整使用数据处理功能，则必须安装有效的 dgiot_enterprise 试用或商业许可证。dgiot_enterprise 软件可从上直接下载 。
+![通道商店](https://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_enterprise/zh/product_overview/%E9%80%9A%E9%81%93%E5%95%86%E5%BA%97.png)
 
+## 通道激活
+
+购买官方通道授权码后，会生成密钥给到用户进行激活。也可由DGIOT官方人员进行激活及通道设备接入测试。

@@ -5,11 +5,11 @@ sidebar_position: 1
 
 # DGIOT物联网平台架构
 
-DGIOT是DGIOT是国内首款轻量级开源的工业物联网平台，致力于为用户提供了快速的一站式服务。
+DGIOT是国内首款轻量级开源的物联网平台，致力于为用户提供快速的一站式服务。
 平台基于Apache许可证，采用模块化和可配置的策略，支持多种通信协议和数据格式，具有高度的可扩展性和自适应性。
 DGIOT的设计和实现旨在为用户提供一个快速、灵活和易用的物联网数据处理和可视化环境。
 
-![架构图](https://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_enterprise/zh/architect.png "架构图")
+![架构图](https://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_enterprise/zh/product_overview/%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
 
 如上图所示，DGIOT 主要分为 **采集和连接** 、 **分析与建模** 以及 **场景应用** 等模块功能。
 
@@ -17,30 +17,32 @@ DGIOT的设计和实现旨在为用户提供一个快速、灵活和易用的物
 
 ## 数据采集接入模块
 
-在数据采集接入方面，dgiot 不仅支持**工业设备数据采集**，还支持工业现场**多源数据接入集成**。
+在数据采集接入方面，dgiot 不仅支持**设备数据采集**，还支持现场子系统的**多源数据接入集成**。
 
 ### 工业设备数据采集
 
-dgiot 通过插件的方式实现对各种工业协议的支持，包括 Modbus、OPC UA、EtherNet/IP、IEC104、BACnet、Siemens PLC、Mitsubishi PLC等。满足智能制造、石油石化、钢铁冶金、能源电力以及楼宇自动化等各个行业的数据采集接入需求。
+dgiot 通过插件的方式实现对各种工业协议的支持，包括 Modbus、OPC UA/DA、DLT645、BACnet、Siemens PLC、SL651、GB28181等。
+满足智能制造、石油石化、能源电力、园区管理以及楼宇自动化等各个行业的数据采集接入需求。同时，支持用户**定制化协议**开发适配接入。
 
 ### 多源数据接入集成
-dgiot 还具备各类数据灵活获取的能力，在工业场景下，可以支持：
+dgiot 还具备各类数据灵活获取的能力，在各类场景下可以支持：
 
 - MES、WMS、ERP系统对接
 
-  [HTTP Pull](../streaming-processing/http_pull.md)及[HTTP Push](../streaming-processing/http_push.md)的方式与MES、WMS、ERP系统对接，进行数据的双向收发
+**HTTP Pull**及**HTTP Push**的方式与MES、WMS、ERP系统对接，进行数据的双向收发
 
-- [数据库对接](../streaming-processing/sql.md)
+- **数据库对接**
 
   MySQL、SQL Server、PostgreSQL、SQLite等数据库数据获取
 
 - 企业服务总线（ESB）对接
 
-  [HTTP Pull](../streaming-processing/http_pull.md)及[HTTP Push](../streaming-processing/http_push.md)的方式双向对接企业服务总线，向企业服务总线推送数据以及接收数据
+  **HTTP Pull**及**HTTP Push**的方式双向对接企业服务总线，向企业服务总线推送数据以及接收数据
 
-- [文件](../streaming-processing/file.md)数据采集
+- **文件**数据采集
 
-- [视频流](../streaming-processing/video.md)接入分析
+- **视频流**接入分析
+
 
 ## 数据处理分析模块
 
@@ -54,23 +56,19 @@ dgiot 的数据处理分析模块可提供以下能力：
 
 - 数据过滤清洗
 
-  dgiot 内置数据抽取、转换、过滤、排序、分组、聚合、连接等功能，内置 160+ 各类[函数](../streaming-processing/sqls/functions/overview.md)，覆盖数学运算、字符串处理、聚合运算和哈希运算等，可满足各种数据过滤清洗的需求。
+  dgiot 内置数据抽取、转换、过滤、排序、分组、聚合、连接等功能，内置 160+ 各类**函数**，覆盖数学运算、字符串处理、聚合运算和哈希运算等，可满足各种数据过滤清洗的需求。
 
 - 实时数据处理
 
   dgiot 提供了对数据流实时低延迟处理的能力，支持工业场景下多系统之间的数据实时交互、协同处理，实现全域的互联互通及智能决策。
 
-- AI/ML 算法集成
-
-  dgiot 支持用户[自定义函数扩展](../streaming-processing/extension.md)和 [AI 算法](../streaming-processing/portable_python.md)集成，提供智能数据分析能力。
-
 
 ## 数据转发存储模块
 
-dgiot 支持将数据转发到云平台或外部系统，实现数据的传递，支持MQTT、SparkplugB、HTTP、Websocket等数据传递方式，也支持将数据存储到数据库中。
+dgiot 支持将数据转发到云平台或外部系统，实现数据的传递，支持MQTT、KAFKA、HTTP、Websocket等数据传递方式，也支持将数据存储到数据库中。
 
 
 ## 系统管理模块
 
 dgiot 系统管理模块包含系统配置、认证、日志、监控告警等功能。
-如何使用dgiot 系统管理模块，请参考 [运维指南](../admin/introduction.md)。
+如何使用dgiot 系统管理模块，请参考**运维指南**
