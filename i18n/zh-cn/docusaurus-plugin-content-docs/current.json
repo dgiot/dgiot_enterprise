@@ -19,6 +19,10 @@
     "message": "数据采集",
     "description": "The process of configuring and deploying software or hardware systems to enable them to function properly in a specific environment."
   },
+  "sidebar.docs.category.data_acquisition.south_devices": {
+    "message": "南向采集",
+    "description": "The process of configuring and deploying software or hardware systems to enable them to function properly in a specific environment."
+  },
   "sidebar.docs.category.data_processing": {
     "message": "数据处理",
     "description": "The process of configuring and deploying software or hardware systems to enable them to function properly in a specific environment."

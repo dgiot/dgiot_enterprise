@@ -1,0 +1,14 @@
+{
+  "position": 4.5,
+  "label": "南向通道",
+  "collapsible": true,
+  "collapsed": false,
+  "className": "green",
+  "link": {
+    "type": "generated-index",
+    "title": "南向通道"
+  },
+  "customProps": {
+    "description": "可以改变左侧自动生成的目录"
+  }
+}
